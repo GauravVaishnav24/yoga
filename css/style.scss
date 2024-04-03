@@ -1,0 +1,42 @@
+@import "_variable.scss";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #077054 !important;
+}
+
+header{
+  a{
+    color: $green-light;
+    font-size: 40px;
+    flex-direction: column;
+
+    span{
+      color: $blue-light;
+      font-size: 26px;
+      font-weight: 100;
+    }
+  }
+
+
+    ul{
+      list-style: none;
+      li{
+        a{
+          font-size: 20px !important;
+          color: $blue-light;
+          text-decoration: none;
+          
+          &:hover{
+            color: #d3a3ff;
+          }
+        }
+
+
+      }
+    }
+}
