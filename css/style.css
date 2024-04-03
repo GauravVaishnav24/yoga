@@ -12,14 +12,15 @@ header a {
   color: #99fa99;
   font-size: 40px;
   flex-direction: column;
+  padding: 30px 0px;
 }
 header a span {
   color: #b6d8cf;
   font-size: 26px;
-  font-weight: 100;
 }
 header ul {
   list-style: none;
+  max-width: 960px;
 }
 header ul li a {
   font-size: 20px !important;
@@ -28,4 +29,9 @@ header ul li a {
 }
 header ul li a:hover {
   color: #d3a3ff;
+}
+
+main {
+  max-width: 880px;
+  min-height: 900px;
 }/*# sourceMappingURL=style.css.map */
