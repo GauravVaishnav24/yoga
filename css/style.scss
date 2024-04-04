@@ -36,6 +36,10 @@ header{
           &:hover{
             color: #d3a3ff;
           }
+
+          &.active{
+            color: $green-light !important;
+          }
         }
 
 

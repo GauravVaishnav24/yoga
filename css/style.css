@@ -30,6 +30,9 @@ header ul li a {
 header ul li a:hover {
   color: #d3a3ff;
 }
+header ul li a.active {
+  color: #99fa99 !important;
+}
 
 main {
   max-width: 880px;
