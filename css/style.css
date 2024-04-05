@@ -53,4 +53,8 @@ main .container .row .row-para .index-para-2 {
   font-size: 100px;
   line-height: 100px;
   color: #99fa99;
+}
+
+footer {
+  max-width: 880px;
 }/*# sourceMappingURL=style.css.map */
