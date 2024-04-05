@@ -37,4 +37,20 @@ header ul li a.active {
 main {
   max-width: 880px;
   min-height: 900px;
+}
+main .container {
+  padding: 45px 40px 46px;
+}
+main .container .row {
+  padding: 110px 0px 0px 25px;
+}
+main .container .row .row-para .index-para-1 {
+  font-size: 100px;
+  color: #99fa99;
+  background: url("../image/bg-separator.png") no-repeat center bottom;
+}
+main .container .row .row-para .index-para-2 {
+  font-size: 100px;
+  line-height: 100px;
+  color: #99fa99;
 }/*# sourceMappingURL=style.css.map */

@@ -50,4 +50,25 @@ header{
 main{
   max-width: 880px;
   min-height: 900px;
+
+  .container{
+    padding: 45px 40px 46px ;
+    .row{
+      padding: 110px 0px 0px 25px;
+
+      .row-para{
+        .index-para-1{
+          font-size: 100px;
+          color: $green-light;
+          background: url("../image/bg-separator.png") no-repeat center bottom;
+        }
+        .index-para-2{
+          font-size: 100px;
+          line-height: 100px;
+          color: $green-light;
+        }
+      }
+    }
+    
+  }
 }
