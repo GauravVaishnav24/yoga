@@ -84,33 +84,36 @@ footer .row .footer-right svg {
 main .about-row {
   padding-top: 0px !important;
 }
-main .about-row .about-title {
+main .about-row .about-row-left .about-title {
   font-size: 32px;
   color: #008000;
   margin-bottom: 20px;
 }
-main .about-row .about-para-1 h2,
-main .about-row .about-para-2 h2,
-main .about-row .about-para-3 h2,
-main .about-row .about-para-4 h2 {
+main .about-row .about-row-left .about-para-1 h2,
+main .about-row .about-row-left .about-para-2 h2,
+main .about-row .about-row-left .about-para-3 h2,
+main .about-row .about-row-left .about-para-4 h2 {
   font-size: 20px;
   color: #077054;
 }
-main .about-row .about-para-1 p,
-main .about-row .about-para-2 p,
-main .about-row .about-para-3 p,
-main .about-row .about-para-4 p {
+main .about-row .about-row-left .about-para-1 p,
+main .about-row .about-row-left .about-para-2 p,
+main .about-row .about-row-left .about-para-3 p,
+main .about-row .about-row-left .about-para-4 p {
   font-size: 14px;
   line-height: 130%;
 }
-main .about-row .about-para-1 p a,
-main .about-row .about-para-2 p a,
-main .about-row .about-para-3 p a,
-main .about-row .about-para-4 p a {
+main .about-row .about-row-left .about-para-1 p a,
+main .about-row .about-row-left .about-para-2 p a,
+main .about-row .about-row-left .about-para-3 p a,
+main .about-row .about-row-left .about-para-4 p a {
   color: #077054;
   text-decoration: none;
 }
-main .about-row .about-para-2,
-main .about-row .about-para-3 {
+main .about-row .about-row-left .about-para-2,
+main .about-row .about-row-left .about-para-3 {
   margin: 35px 0;
+}
+main .about-row .about-row-right {
+  display: contents;
 }/*# sourceMappingURL=style.css.map */

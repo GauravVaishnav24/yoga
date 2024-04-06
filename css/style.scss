@@ -111,35 +111,42 @@ footer{
 main{
   .about-row{
     padding-top: 0px !important;
-    .about-title{
-      font-size: 32px;
-      color: $green-dark;
-      margin-bottom: 20px;
-    }
-
-    .about-para-1,
-    .about-para-2,
-    .about-para-3,
-    .about-para-4{
-      h2{
-        font-size: 20px;
-        color: $green-h2;
+    
+    .about-row-left{
+      .about-title{
+        font-size: 32px;
+        color: $green-dark;
+        margin-bottom: 20px;
       }
-
-      p{
-        font-size: 14px;
-        line-height: 130%;
-
-        a{
+  
+      .about-para-1,
+      .about-para-2,
+      .about-para-3,
+      .about-para-4{
+        h2{
+          font-size: 20px;
           color: $green-h2;
-          text-decoration: none;
+        }
+  
+        p{
+          font-size: 14px;
+          line-height: 130%;
+  
+          a{
+            color: $green-h2;
+            text-decoration: none;
+          }
         }
       }
+  
+      .about-para-2,
+      .about-para-3{
+        margin: 35px 0;
+      }
     }
 
-    .about-para-2,
-    .about-para-3{
-      margin: 35px 0;
+    .about-row-right{
+      display: contents;
     }
   }
 }
