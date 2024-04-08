@@ -153,3 +153,68 @@ main{
     }
   }
 }
+
+
+/*============================== 
+      Contact Page
+===============================*/
+
+main{
+  .row-default{
+    padding-top: 0px !important;
+
+      .title{
+        font-size: 32px;
+        color: $green-dark;
+        margin-bottom: 20px;
+      }
+    
+      .form{
+        h2{
+          font-size: 20px;
+          color: $green-dark;
+        }
+        input, textarea{
+          background: $green-h2;
+          color: $green-light;
+        }
+
+        textarea{
+          resize: none;
+        }
+
+        button{
+          float: inline-end;
+          background: $green-h2;
+          color: $green-light;
+        }
+      }
+  }
+}
+
+
+/*============================== 
+      Blog Page
+===============================*/
+
+main{
+  .row-default{
+    padding-top: 0px !important;
+
+    .blog-1,
+    .blog-2,
+    .blog-3{
+
+      .blog-detail{
+        h2{
+          color: $green-dark;
+          font-size: 20px;
+        }
+        p{
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
