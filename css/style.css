@@ -18,20 +18,39 @@ header a span {
   color: #b6d8cf;
   font-size: 26px;
 }
-header ul {
+header .nav-ul {
   list-style: none;
   max-width: 960px;
 }
-header ul li a {
+header .nav-ul .nav-li a {
   font-size: 20px !important;
   color: #b6d8cf;
   text-decoration: none;
 }
-header ul li a:hover {
+header .nav-ul .nav-li a:hover {
   color: #d3a3ff;
 }
-header ul li a.active {
+header .nav-ul .nav-li a.active {
   color: #99fa99 !important;
+}
+header .nav-ul .nav-li .dropdown-ul {
+  padding: 0px;
+  margin-left: -80px;
+}
+header .nav-ul .nav-li .dropdown-ul .dropdown-ul-li {
+  display: none;
+  list-style: none;
+}
+header .nav-ul .nav-li .dropdown-ul .dropdown-ul-li a {
+  text-decoration: none;
+  padding: 0px;
+}
+header .nav-ul .nav-li:hover .dropdown-ul .dropdown-ul-li {
+  display: inline-block;
+  position: absolute;
+  z-index: 99;
+  padding: 5px;
+  background: #077054;
 }
 
 main {
@@ -119,6 +138,41 @@ main .row-default .row-left .para-3 {
 }
 main .row-default .row-right {
   display: contents;
+}
+
+/*============================== 
+      Instructor Page
+===============================*/
+main .row .inst-left {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .row .inst-left .title {
+  font-size: 32px;
+  color: #008000;
+  margin-bottom: 20px;
+}
+main .row .inst-left .img-1,
+main .row .inst-left .img-2,
+main .row .inst-left .img-3,
+main .row .inst-left .img-4 {
+  flex-direction: column;
+  margin: 50px 0;
+}
+main .row .inst-left .img-1 img,
+main .row .inst-left .img-2 img,
+main .row .inst-left .img-3 img,
+main .row .inst-left .img-4 img {
+  width: 200px;
+}
+main .row .inst-left .img-1 span,
+main .row .inst-left .img-2 span,
+main .row .inst-left .img-3 span,
+main .row .inst-left .img-4 span {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 0;
+  color: #077054;
 }
 
 /*============================== 

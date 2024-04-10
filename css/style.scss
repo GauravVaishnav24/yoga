@@ -6,7 +6,7 @@
 }
 
 body{
-  background: #077054 !important;
+  background: $background !important;
 }
 
 header{
@@ -23,11 +23,11 @@ header{
   }
 
 
-    ul{
+    .nav-ul{
       list-style: none;
       max-width: 960px;
       
-      li{
+      .nav-li{
         a{
           font-size: 20px !important;
           color: $blue-light;
@@ -41,8 +41,28 @@ header{
             color: $green-light !important;
           }
         }
+        
+        .dropdown-ul{
+          padding: 0px;
+          margin-left: -80px;
+          .dropdown-ul-li{
+            display: none;
+            list-style: none;
+            a{
+              text-decoration: none;
+              padding: 0px;
+            }
+          }
+        }
 
-
+        &:hover .dropdown-ul .dropdown-ul-li{
+          display: inline-block;
+          position: absolute;
+          z-index: 99;
+          padding: 5px;
+          // margin-left: 10px;
+          background: $background;
+        }
       }
     }
 }
@@ -154,6 +174,42 @@ main{
   }
 }
 
+/*============================== 
+      Instructor Page
+===============================*/
+main{
+  .row{
+    .inst-left{
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .title{
+        font-size: 32px;
+        color: $green-dark;
+        margin-bottom: 20px;
+      }
+
+      .img-1,
+      .img-2,
+      .img-3,
+      .img-4{
+        flex-direction: column;
+      margin: 50px 0;
+
+
+        img{
+          width: 200px;
+        }
+        span{
+          font-size: 20px;
+          font-weight: 600;
+          padding: 15px 0;
+          color: $green-h2;
+        }
+      }
+    }
+  }
+}
 
 /*============================== 
       Contact Page
